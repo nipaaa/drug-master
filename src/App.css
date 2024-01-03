@@ -1,0 +1,47 @@
+p{
+  margin: 0;
+}
+.box_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  background-color: blanchedalmond;
+  height: 50px;
+  width: 50px;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.keeper {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.round_inner {
+  width: 300px;
+  height: 400px;
+  border: 1px solid rebeccapurple;
+  border-radius: 50%;
+}
+
+.round_box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rebeccapurple;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+}
