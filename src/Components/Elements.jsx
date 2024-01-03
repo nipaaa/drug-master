@@ -1,3 +1,5 @@
+import React from "react";
+
 const Elements = ({ elements, onDragStart }) => {
   return (
     <div className="box_wrapper mt-5">
@@ -14,4 +16,5 @@ const Elements = ({ elements, onDragStart }) => {
     </div>
   );
 };
+
 export default Elements;
